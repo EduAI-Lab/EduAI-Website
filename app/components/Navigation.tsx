@@ -19,6 +19,9 @@ export function Navigation() {
             <Link to="/about">
               <Button variant="ghost">About</Button>
             </Link>
+            <Link to="/team">
+              <Button variant="ghost">Team</Button>
+            </Link>
             {/* <Link to="/login">
               <Button variant="outline">Login</Button>
             </Link>

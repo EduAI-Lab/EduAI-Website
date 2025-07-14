@@ -22,4 +22,8 @@ export default [
     path: "/research",
     file: "routes/research.tsx",
   },
+  {
+    path: "/team",
+    file: "routes/team.tsx",
+  },
 ] satisfies RouteConfig;
