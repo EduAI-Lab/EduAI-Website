@@ -6,40 +6,40 @@ A modern research website showcasing the EduAI project at UBC Okanagan Campus.
 
 First, install the dependencies:
 
-\`\`\`bash
+```bash
 npm install
 # or
 yarn install
 # or
 pnpm install
-\`\`\`
+```
 
 Then, run the development server:
 
-\`\`\`bash
+```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-\`\`\`
+```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 ## Project Structure
 
-\`\`\`
+```
 src/
 ├── app/                 # Next.js App Router pages
 ├── components/          # Reusable React components
-├── config/             # Site configuration
-├── data/               # Data files and types
-└── lib/                # Utility functions
-\`\`\`
+├── config/              # Site configuration
+├── data/                # Data files and types
+└── lib/                 # Utility functions
+```
 
 ## Features
 
-- Modern Next.js 15 with App Router
+- Next.js 15 with App Router
 - TypeScript for type safety
 - Tailwind CSS for styling
 - shadcn/ui components
@@ -50,13 +50,10 @@ src/
 
 This project is configured for static export and can be deployed to any static hosting service.
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 ## License
 
 This project is for academic research purposes at UBC Okanagan Campus.
-\`\`\`
-
-Now let's create the src directory structure:
