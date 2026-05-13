@@ -14,7 +14,7 @@ export function SiteFooter({
         <div className="text-center">
           <div className="flex justify-center mb-6">
             <Image
-              src={siteConfig.logo || "/placeholder.svg"}
+              src={siteConfig.logo}
               alt="UBC Logo"
               width={150}
               height={40}

@@ -9,7 +9,7 @@ export default function TeamPage() {
   return (
     <div className="min-h-screen bg-slate-900 relative overflow-hidden">
       <AnimatedBackground />
-      <SiteHeader currentPage="team" />
+      <SiteHeader />
       <SiteNavigation currentPage="team" />
 
       {/* Main Content */}
