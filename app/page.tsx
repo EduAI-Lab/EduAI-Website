@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Brain, BookOpen, Users, Lightbulb, ArrowRight, Code, Terminal, Cpu } from "lucide-react"
+import { Brain, BookOpen, Users, Lightbulb, ArrowRight, Terminal, Cpu } from "lucide-react"
 import { AnimatedBackground } from "@/components/animated-background"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-slate-900 relative overflow-hidden">
       <AnimatedBackground />
-      <SiteHeader currentPage="home" />
+      <SiteHeader />
 
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32">
@@ -35,29 +35,14 @@ export default function HomePage() {
 
             <div className="mb-8">
               <p className="text-xl lg:text-2xl text-slate-200 mb-4 leading-relaxed">{projectInfo.subtitle}</p>
-              <div className="flex justify-center items-center space-x-4 text-slate-400 font-mono text-sm">
-                <Terminal className="h-4 w-4" />
-                <span>{"> python train_model.py --task=education --model=transformer"}</span>
-              </div>
             </div>
 
             <p className="text-lg text-slate-300 mb-12 max-w-3xl mx-auto">{projectInfo.description}</p>
-
-            <Link href={siteConfig.navigation.team}>
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border-0"
-              >
-                <Code className="mr-2 h-5 w-5" />
-                Meet Our Research Team
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
           </div>
         </div>
       </section>
 
-      {/* What is EduAI Section */}
+      {/* What is EduAI Lab Section */}
       <section className="relative py-20 bg-slate-800/50 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -68,15 +53,15 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-slate-300 leading-relaxed mb-6">
-                EduAI is a groundbreaking research initiative at UBC Okanagan that harnesses the power of artificial
-                intelligence to transform educational experiences. Our project focuses on developing intelligent systems
-                that understand, adapt, and respond to individual learning needs.
+                EduAI Lab is a research initiative at UBC Okanagan building a pedagogically-driven AI framework for
+                the UBC community. We design AI-enhanced learning tools that are scalable, secure, and inclusive by
+                default — so every UBC student and educator gets the same quality of access.
               </p>
 
               <p className="text-lg text-slate-300 leading-relaxed mb-8">
-                By combining advanced machine learning algorithms, natural language processing, and educational theory,
-                we're creating tools that make learning more personalized, accessible, and effective for students across
-                all disciplines.
+                By grounding our work in educational theory and combining it with modern machine learning, retrieval,
+                and natural language processing, we're shipping tools that adapt to how UBC students actually learn —
+                across every discipline.
               </p>
 
               <div className="flex flex-wrap gap-4">
@@ -123,8 +108,8 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Ready to Learn More?</h2>
           <p className="text-xl text-green-100 mb-8 leading-relaxed">
-            Discover the brilliant minds behind EduAI and learn about their groundbreaking contributions to educational
-            artificial intelligence research.
+            Discover the team behind EduAI Lab and the work they're doing to build a pedagogically-driven AI
+            framework for the UBC community.
           </p>
 
           <Link href={siteConfig.navigation.team}>

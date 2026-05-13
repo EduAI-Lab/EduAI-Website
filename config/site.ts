@@ -1,26 +1,23 @@
 export const siteConfig = {
-  name: "EduAI Research Project",
-  description: "Revolutionizing Education Through Artificial Intelligence",
+  name: "EduAI Lab",
+  description: "A pedagogically-driven AI-enhanced learning framework for the UBC community",
   university: "UBC Okanagan Campus",
-  year: "2024",
-  tagline: "Advancing Education Through Artificial Intelligence",
+  year: "2026",
+  tagline: "Scalable, secure, and inclusive AI-enhanced learning for the UBC community",
   logo: "/images/ubc-logo.png",
   navigation: {
     home: "/",
     team: "/team",
   },
-  social: {
-    // Add social media links if needed
-  },
 }
 
 export const projectInfo = {
-  title: "EduAI",
-  subtitle: "Revolutionizing Education Through Artificial Intelligence",
+  title: "EduAI Lab",
+  subtitle: "A pedagogically-driven AI framework, built for the UBC community",
   description:
-    "Empowering students and educators with intelligent, personalized learning experiences powered by cutting-edge AI technology and research at UBC Okanagan.",
+    "EduAI Lab gives UBC students and educators open access to a scalable, secure, and inclusive AI-enhanced learning framework — grounded in pedagogical research at UBC Okanagan.",
   vision:
-    "To create an AI-powered educational ecosystem that adapts to every learner's unique needs, making quality education accessible, engaging, and effective for all students.",
+    "To equip the UBC community with a pedagogically-driven AI framework — scalable, secure, and inclusive by design — that makes AI-enhanced learning accessible across every discipline.",
   goals: [
     {
       title: "Personalized Learning",

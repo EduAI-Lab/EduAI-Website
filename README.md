@@ -1,6 +1,6 @@
-# EduAI Research Project
+# EduAI Lab
 
-A modern research website showcasing the EduAI project at UBC Okanagan Campus.
+The public, static research website for the EduAI Lab project at UBC Okanagan Campus. Showcases the lab's vision, research goals, and team.
 
 ## Getting Started
 
@@ -29,12 +29,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the r
 ## Project Structure
 
 ```
-src/
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable React components
-├── config/              # Site configuration
-├── data/                # Data files and types
-└── lib/                 # Utility functions
+app/                # Next.js App Router pages (home, team)
+components/         # Reusable React components (cards, header, footer, nav)
+config/             # Site configuration (siteConfig, projectInfo)
+data/               # Team data and TypeScript types
+hooks/              # Custom React hooks
+lib/                # Utility functions
+public/images/      # Team photos and logo
 ```
 
 ## Features
